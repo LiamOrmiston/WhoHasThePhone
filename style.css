@@ -2,8 +2,7 @@ div
 {
     height: 200px;
     width: 400px;
-    background: black;
-
+    text-align: center;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,5 +11,5 @@ div
 }
 body
 {
-  font-size: 24px;
+  font-size: 48px;
 }
