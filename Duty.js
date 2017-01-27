@@ -202,12 +202,18 @@ switch (Day)
     case time == 18:
       name = "Ben"
       break;
+    case time > 18:
+      name = "Alyssa"
+      break;
   }
     document.write(name + " has the phone!");
     break;
   case 5:
   switch (true)
   {
+    case time < 7:
+      name = "Alyssa"
+      break;
     case time == 7:
       name = "Liam"
       break;
@@ -244,7 +250,26 @@ switch (Day)
     case time == 18:
       name = "Sofia"
       break;
+    case time > 18:
+      name = "Ryan or Alyssa"
+      break;
   }
+    document.write(name + " has the phone!");
+    break;
+  case 6:
+    name = "Ryan or Alyssa"
+    document.write(name + " has the phone!");
+    break;
+  case 7:
+    switch (true)
+    {
+      case time < 19:
+        name = "Ryan or Alyssa"
+        break;
+      case time >= 19:
+        name = "Sofia"
+        break;
+    }
     document.write(name + " has the phone!");
     break;
 }
