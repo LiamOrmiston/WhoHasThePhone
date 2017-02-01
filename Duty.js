@@ -107,7 +107,7 @@ switch (Day)
       name = "Ryan"
       break;
     case time > 18:
-      name = "Ryan"
+      name = "Danielle"
       break;
   }
     document.write(name + " has the phone!");
@@ -116,7 +116,7 @@ switch (Day)
   switch (true)
   {
     case time < 7:
-      name = "Ryan"
+      name = "Danielle"
       break;
     case time == 7:
       name = "Sofia"
@@ -155,7 +155,7 @@ switch (Day)
       name = "Sofia"
       break;
     case time > 18:
-      name = "Sander"
+      name = "Liam"
       break;
   }
     document.write(name + " has the phone!");
@@ -164,7 +164,7 @@ switch (Day)
   switch (true)
   {
     case time < 7:
-      name = "Sander"
+      name = "Liam"
       break;
     case time == 7:
       name = "Josh"
