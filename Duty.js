@@ -257,14 +257,14 @@ switch (Day)
     document.write(name + " has the phone!");
     break;
   case 6:
-    name = "Ryan or Alyssa"
+    name = "Sofia or Riya"
     document.write(name + " has the phone!");
     break;
   case 7:
     switch (true)
     {
       case time < 19:
-        name = "Ryan or Alyssa"
+        name = "Sofia or Riya"
         break;
       case time >= 19:
         name = "Sofia"
